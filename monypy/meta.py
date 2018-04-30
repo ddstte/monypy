@@ -1,6 +1,6 @@
 from bson.codec_options import CodecOptions
 
-from .db.connection import connect
+from .connection import connect
 from .manager import Manager
 
 DOC_DATA = '#data'
